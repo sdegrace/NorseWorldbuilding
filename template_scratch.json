@@ -1,0 +1,360 @@
+{
+  "Actor": {
+    "types": [
+      "character"
+    ],
+    "common": {
+      "favor": {
+        "thor": {
+          "value": 10
+        },
+        "odin": {
+          "value": 10
+        },
+        "loki": {
+          "value": 10
+        }
+      }
+    },
+    "character": {
+      "organs": {
+        "brain": {
+          "material": "fleshy",
+          "blood_percentage": 0.15,
+          "temp_damage_amount": 0,
+          "permanent_damage_amount": 0,
+          "injury_symptoms": {
+            "loss_of_lucidity": {
+              "onset_at": 0.1,
+              "max_at": 0.5,
+              "max_severity": 1.0
+            },
+            "nausea": {
+              "onset_at": 0.05,
+              "max_at": 0.4,
+              "max_severity": 0.4
+            },
+            "pain": {
+              "onset_at": 0.05,
+              "max_at": 0.4,
+              "max_severity": 0.25
+            }
+          }
+        },
+        "liver": {
+          "material": "fleshy",
+          "blood_percentage": 0.27,
+          "temp_damage_amount": 0,
+          "permanent_damage_amount": 0,
+          "injury_symptoms": {
+            "nausea": {
+              "onset_at": 0.1,
+              "max_at": 0.75,
+              "max_severity": 0.9
+            },
+            "pain": {
+              "onset_at": 0.25,
+              "max_at": 0.75,
+              "max_severity": 0.9
+            },
+            "systemic_organ_failure": {
+              "onset_at": 0.4,
+              "max_at": 1.0,
+              "max_severity": 0.000002
+            }
+          }
+        },
+        "heart": {
+          "material": "fleshy",
+          "blood_percentage": 1.0,
+          "temp_damage_amount": 0,
+          "permanent_damage_amount": 0,
+          "injury_symptoms": {
+            "pain": {
+              "onset_at": 0.25,
+              "max_at": 1.0,
+              "max_severity": 0.75
+            },
+            "systemic_organ_failure": {
+              "onset_at": 0.25,
+              "max_at": 1.0,
+              "max_severity": 0.00167
+            }
+          }
+        },
+        "lungs": {
+          "material": "fleshy",
+          "blood_percentage": 1.0,
+          "temp_damage_amount": 0.0,
+          "permanent_damage_amount": 0.0,
+          "injury_symptoms": {
+            "breathing_difficulty": {
+              "onset_at": 0.05,
+              "max_at": 1.0,
+              "max_severity": 1.0
+            },
+            "pain": {
+              "onset_at": 0.05,
+              "max_at": 1.0,
+              "max_severity": 0.9
+            }
+          }
+        },
+        "stomach": {
+          "material": "fleshy",
+          "blood_percentage": 0.08,
+          "temp_damage_amount": 0.0,
+          "permanent_damage_amount": 0.0,
+          "injury_symptoms": {
+            "nausea": {
+              "onset_at": 0.05,
+              "max_at": 0.8,
+              "max_severity": 1.0
+            },
+            "systemic_organ_failure": {
+              "onset_at": 0.9,
+              "max_at": 0.95,
+              "max_severity": 0.00003
+            },
+            "pain": {
+              "onset_at": 0.1,
+              "max_at": 0.5,
+              "max_severity": 0.8
+            }
+          }
+        },
+        "intestine": {
+          "material": "fleshy",
+          "blood_percentage": 0.08,
+          "temp_damage_amount": 0.0,
+          "permanent_damage_amount": 0.0,
+          "injury_symptoms": {
+            "nausea": {
+              "onset_at": 0.05,
+              "max_at": 0.8,
+              "max_severity": 0.9
+            },
+            "systemic_organ_failure": {
+              "onset_at": 0.9,
+              "max_at": 0.95,
+              "max_severity": 0.00003
+            },
+            "pain": {
+              "onset_at": 0.1,
+              "max_at": 0.5,
+              "max_severity": 0.8
+            }
+          }
+        },
+        "kidney": {
+          "material": "fleshy",
+          "blood_percentage": 0.22,
+          "temp_damage_amount": 0.0,
+          "permanent_damage_amount": 0.0,
+          "injury_symptoms": {
+            "systemic_organ_failure": {
+              "onset_at": 0.25,
+              "max_at": 1.0,
+              "max_severity": 0.0000023
+            },
+            "pain": {
+              "onset_at": 0.1,
+              "max_at": 0.6,
+              "max_severity": 0.8
+            }
+          }
+        },
+        "larynx": {
+          "material": "fleshy",
+          "blood_percentage": 0.01,
+          "temp_damage_amount": 0.0,
+          "permanent_damage_amount": 0.0,
+          "injury_symptoms": {
+            "breathing_difficulty": {
+              "onset_at": 0.05,
+              "max_at": 1.0,
+              "max_severity": 1.0
+            }
+          }
+        }
+      },
+      "health_attributes": {
+        "oxygen_level": 1.0,
+        "blood_level": 5000,
+        "heart_beat_volume": 65,
+        "resting_bpm": 60
+      },
+      "skills": {
+        "templates": {
+          "odin_skill": {
+            "value": 0,
+            "deity": "odin"
+          },
+          "thor_skill": {
+            "value": 0,
+            "deity": "thor"
+          },
+          "loki_skill": {
+            "value": 0,
+            "deity": "loki"
+          }
+        },
+        "tactics": {
+          "value": 0,
+          "deity": "odin"
+        },
+        "lore": {
+          "value": 0,
+          "deity": "odin"
+        },
+        "perception": {
+          "value": 0,
+          "deity": "odin"
+        },
+        "investigation": {
+          "value": 0,
+          "deity": "odin"
+        },
+        "deduction": {
+          "value": 0,
+          "deity": "odin"
+        },
+        "power": {
+          "value": 0,
+          "deity": "thor"
+        },
+        "athletics": {
+          "value": 0,
+          "deity": "thor"
+        },
+        "healing": {
+          "value": 0,
+          "deity": "thor"
+        },
+        "intimidation": {
+          "value": 0,
+          "deity": "thor"
+        },
+        "performance": {
+          "value": 0,
+          "deity": "thor"
+        },
+        "accuracy": {
+          "value": 0,
+          "deity": "loki"
+        },
+        "speed": {
+          "value": 0,
+          "deity": "loki"
+        },
+        "persuasion": {
+          "value": 0,
+          "deity": "loki"
+        },
+        "deception": {
+          "value": 0,
+          "deity": "loki"
+        },
+        "stealth": {
+          "value": 0,
+          "deity": "loki"
+        }
+      },
+      "attributes": {},
+      "groups": {}
+    }
+  },
+  "Item": {
+    "types": [
+      "weapon",
+      "equipment",
+      "consumable",
+      "tool",
+      "loot",
+      "backpack"
+    ],
+    "templates": {
+      "itemDescription": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": ""
+      },
+      "physicalItem": {
+        "attack_params": {
+          "stab_sharpness": 0.5,
+          "fore_swing_sharpness": 0.5,
+          "back_swing_sharpness": 0.5,
+          "blunt_swing_sharpness": 0.5,
+          "effective_length": 0.5,
+          "edge_material": "iron"
+        },
+        "base_material": "iron",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "action": {
+        "ability": null,
+        "actionType": null
+      },
+      "mountable": {
+      }
+    },
+    "backpack": {
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ],
+      "capacity": {
+        "type": "weight",
+        "value": 0
+      }
+    },
+    "consumable": {
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "action"
+      ],
+      "consumableType": "food",
+      "uses": {
+        "autoDestroy": true
+      }
+    },
+    "equipment": {
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "action",
+        "mountable"
+      ]
+    },
+    "loot": {
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ]
+    },
+    "tool": {
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ]
+    },
+    "weapon": {
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "activatedEffect",
+        "action",
+        "mountable"
+      ]
+    }
+  }
+}

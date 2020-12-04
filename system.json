@@ -1,0 +1,26 @@
+{
+  "name": "NorseWorldbuilding",
+  "title": "Norse World-Building",
+  "description": "Norse Game system moving from worldbuilding system",
+  "version": 0.01,
+  "minimumCoreVersion": "0.7.7",
+  "compatibleCoreVersion": "0.7.7",
+  "templateVersion": 1,
+  "author": "Stephen DeGrace",
+  "esmodules": ["module/simple.js"],
+  "styles": ["styles/simple.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "meter",
+  "url": "https://gitlab.com/foundrynet/worldbuilding/",
+  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/master/system.json",
+  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-040/worldbuilding-release-040.zip",
+  "license": "LICENSE.txt"
+}
